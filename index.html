@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome | Mohit's Motors</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="js/functions.js"></script>
+<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+
+
+<body onscroll="scroll();">
+
+    <a name="top"></a>
+    <div class="container">
+        <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#top">Mohit's Motors</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  <li class="nav-item active">
+		<!--<a class="nav-link" href="#specials">Home <span class="sr-only">(current)</span></a>-->
+		<a class="nav-link" href="#home">Home</a>
+	  </li>
+        
+        <li class="nav-item active">
+		<!--<a class="nav-link" href="#specials">Home <span class="sr-only">(current)</span></a>-->
+		<a class="nav-link" href="#products">Products</a>
+	  </li>
+        
+         <li class="nav-item active">
+		<!--<a class="nav-link" href="#specials">Home <span class="sr-only">(current)</span></a>-->
+		<a class="nav-link" href="#contact">Contacts</a>
+	  </li>
+        
+         <li class="nav-item active">
+		<!--<a class="nav-link" href="#specials">Home <span class="sr-only">(current)</span></a>-->
+		<a class="nav-link" href="#references">References</a>
+	  </li>
+        
+	  <li class="nav-item dropdown">
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		  Manufacturers
+		</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		  <a class="dropdown-item" href="https://www.pirelli.com/global/en-ww/homepage" onclick="$('#collapseOne').collapse('show');" target="_blank">Pirelli</a>
+		  <a class="dropdown-item" href="https://thehuntandcompany.com/" onclick="$('#collapseTwo').collapse('show');" target="_blank">Hunt and Company</a>
+		  <a class="dropdown-item" href="https://www.honda.ca/en/" onclick="$('#collapseThree').collapse('show');" target="_blank">Honda</a>
+		</div>
+	  </li>
+	  
+	</ul>
+  </div>
+</nav> 
+     
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <div class="space"> <!-- Banner -->
+    <!-- Large Image with Text-->
+        <div class="large-img">
+            <div class="tint">
+            <div class="large-img-caption"><h1>Mohit's Motors</h1> <br>
+                <p class="header-slogan">Fast Shipping for Fast Cars</p>
+            </div>
+            </div>
+        </div>
+    </div>
+        <section>
+        <h1>Home</h1> <a name="home"></a>
+        <div class="col-sm" id="cdiv"> <!-- Carousel -->
+        <section class="carousel col"> 
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/car-suspension.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/audi.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="img/porsche.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        
+            </section> 
+            
+            <section class="col-sm" class="ctext"><p> Mohit’s Motors is an online store that ships a variety of car parts to people all around the world. We sell suspension kits, superchargers, tires, rims, body kits and brake pads. The business was founded by Mohit Amarthaluru, and he is helped by two others to help ship all the car parts to meet your needs! From our warehouse in London, Ontario we provide free worldwide shipping. Also, when you order from us you can be assured that you will get the best deal possible.</p></section>
+       
+        </div>
+    
+    
+<!-- Team (Grid blocks) -->
+        <h2>Team</h2>
+        <div class="row" id="scrollfireDiv">
+        <div class="col-sm">
+            <img src="img/CEO.jpg" class="worker team">
+            <h5>Mohit Amarthaluru</h5>
+            <p>Owner</p>
+            <p>Started the company because of his fascination of cars. He now handles everything from Sales to Human resources. One day, Mohit wants to build a race car.</p>
+        </div>
+            
+        <div class="col-sm">
+            <img src="img/accountant.jpg" class="worker team">
+            <h5>Bob Vance</h5>
+            <p>Accountant</p>
+            <p>Bob Vance has 5 years of accounting experience. He has been with the company for 2 years. Bob wants to start a refrigeration company one day.</p> 
+        </div>
+            
+        <div class="col-sm">
+            <img src="img/warehouseWorker.jpg" class="worker team" >
+            <h5>Andy Bernard</h5>
+            <p>Warehouse Worker</p>
+            <p>Andy Bernard is currently attending Cornell University. He helps Mohit’s Motors receive and send packages during the summer. He wants to be a salesmen once graduating.</p>  
+        </div>
+            
+        </div>
+        </section>
+        
+        <section>
+ <!-- Products (Grid Blocks) -->
+    <h1>Products</h1> <a name="products"></a>
+    <a name="Products"></a>
+        <div class="row space">
+            <div class="col-sm">
+                <img src="img/suspension.jpg" class="product">
+                <h5>Suspension Kit</h5>
+                <p>Product Code: SK1000</p>
+                <p>Want a smooth ride? Try our extremely customizable suspension kit.</p>  
+                <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Add to Cart</a>
+            </div>
+
+            <div class="col-sm">
+                <img src="img/supercharger.jpg" class="product">
+                <h5>Supercharger</h5>
+                <p>Product Code: SC1000</p>
+                <p>If you want extra power, get a turbo. If you want a lot of extra power, get two.</p>
+                <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Add to Cart</a>
+            </div>
+
+            <div class="col-sm">
+                <img src="img/Tires.jpg" class="product">
+                <h5>Tires</h5>
+                <p>Product Code: TI1000</p>
+                <p>Rain or shine, these tires will make sure you stick to the road. Comes in different sizes.</p>
+                <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Add to Cart</a>
+            </div>
+        </div>
+        
+        <div class="row space">
+            <div class="col-sm">
+                <img src="img/Rims.jpg" class="product">
+                <h5>Rims</h5>
+                <p>Product Code: RM1000</p>
+                <p>Compliment your tires with a great set of rims. Comes in different sizes.</p>
+                <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Add to Cart</a>
+            </div>
+
+             <div class="col-sm">
+                 <img src="img/bodykit.jpg" class="product">
+                <h5>Body Kit</h5>
+                <p>Product Code: BK1000</p>
+                <p>Make sure your car looks stylish with our body kits. Instructions included.</p>   
+                 <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Add to Cart</a>
+                 
+            </div>
+
+             <div class="col-sm">
+                <img src="img/brake.jpg" class="product">
+                <h5>Brake Pads</h5>
+                <p>Product Code: BP1000</p>
+                <p>Get that feeling of true race car breaking. Also lasts longer than standard factory breaks.</p>
+                 <a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#basicModal">Add to Cart</a>
+            </div>
+        </div>
+            <div class="parallax-img" id="para">
+            
+            
+            
+            </div>
+</section>
+        
+    <section class="space">
+        <div class="">
+        
+<!-- Contact Form -->
+        <h1>Contact</h1>  <a name="contact"></a>
+            <form>
+            <h3>General Information</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" class="textbox" onblur="checkName();" /> <br><!-- LISTENER -->
+            <label for="age">Phone Number</label>
+            <input type="text" id="phone" class="textbox" onblur="checkPhone();" /> <!-- LISTENER -->
+                <br>
+            <h3>Reason for Message</h3>
+            <label for="reason">Reason</label>
+
+                <select name="Reason" id="reason" onchange="updateReason();">
+                   <option value="0" >Choose</option>
+                  <option value="0" >General Inquiry</option>
+                  <option value="0" >Pricing</option>
+                  <option value="1" id="prodInfo">Product Info</option>
+                  <option value="0" >Shipping</option>
+                    <option value="0" >Other</option>
+                </select>
+                <div id="prodNum" onchange="updateReason()">
+                <label for="prodNumber" >Product Number</label><input id="numBox" type="text" class="textbox" onblur="checkNum();"/>
+                </div><br>
+                <textarea id="textbox" onchange="checkLen();">Message</textarea><br>
+                
+
+                          
+        </form>
+            <button id="sendBtn" onclick="modal();">Send</button>
+
+  <div id="sendModal">
+     
+    <div class="modal-content">
+    
+
+      <p>Your Request has been Processed.</p>
+         <button id="closeBtn" onclick="closeModal();">Close</button>
+    </div>
+
+  </div>
+                    
+
+        </div>
+        </section>
+        <section>
+        <h1>References</h1><a name="references"></a>
+         <ul>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/open-hood-of-car-with-engine-and-cylinders-5308205/">Banner Image</a></li>
+                     <li class="contact"> <a target="_blank" href="https://unsplash.com/photos/lOQpUBhcFzI">Suspension (Carousel)</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/photo-of-audi-parked-near-trees-1402787/ ">Audi (Carousel)</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/close-up-photo-of-a-vehicle-parts-10912797/">Suspension</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/mercedes-emblem-on-a-mag-wheel-5288732/">Brakes</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/light-road-landscape-street-14616349/">Porsche (Carousel)</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/man-in-bubble-jacket-holding-tablet-computer-4484078/">Warehouse Worker</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/a-man-writing-on-the-paper-6694964/">Accountant</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/determined-smiling-businessman-with-laptop-on-street-3771089/">CEO</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/close-up-shot-of-a-turbocharger-7565164/">Supercharger</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/vehicle-tire-441103/">Tires</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/close-up-photograph-of-chrome-vehicle-wheel-244553/">Rims</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.favicon.cc/">Favicon</a></li>
+                     <li class="contact"> <a target="_blank" href="https://www.pexels.com/photo/parked-white-coupe-during-night-3354648/">Mustang (Paralax Image)</a></li>
+                     <li class="contact"> <a target="_blank" href="https://pixabay.com/photos/body-kit-car-car-wallpaper-custom-1869892/">Body Kits</a></li>
+                  </ul>
+                
+        
+        
+        </section>
+        
+<!-- Modal Prompt Code (Product)-->
+      <div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Cart Update</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>The Item was Added to your Cart</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Remove</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+        
+<!-- Modal Prompt Code (Submit) -->
+     <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Form Submission</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <p>The Form has been Submitted</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Undo</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+         </div> <!-- End Div for Container -->
+</body>
+
+</html>
